@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <title>関西大学 電気通信工学研究会</title>
+        <style>
+         body {
+             background: #f5f5f5;
+             margin: 0;
+             padding: 0;
+         }
+         header {
+             background: black url("header.png") no-repeat center top;
+             padding-top: 300px;
+             text-align: center;
+             color: white;
+         }
+         nav > ul, article > section {
+             max-width: 1000px;
+             margin: 1em auto;
+         }
+         nav {
+             background: rgba(0, 0, 0, 0.5);
+             top: 0;
+             width: 100%;
+         }
+         nav ul {
+	         display: flex;
+	         flex-flow: row;
+             align-items: center;
+             justify-content: center;
+             padding: 0;
+             list-style-type: none;
+         }
+         nav li {
+             text-align: center;
+             min-width: 150px;
+             width: 150px;
+         }
+         nav a {
+	         display: block;
+	         border-radius: 4px;
+	         padding: 12px 24px;
+             color: inherit;
+             text-decoration: none;
+         }
+         nav a:hover {
+             color: black;
+             background: #f5f5f5;
+             transition: background-color 1s, color 1s;
+         }
+         h1 {
+             font-weight: bold;
+             text-shadow: 0px 0px 5px black;
+             padding-bottom: 1ex;
+             display: none;
+         }
+         section {
+             margin: 1em;
+         }
+         section > h2, section > h3 {
+             border-left: 5px solid #555;
+         }
+         section > h2 ,section > h3, section > h4 {
+             padding: 1ex;
+         }
+         section > p {
+             margin-left: 2em;
+         }
+
+         li.activity {
+             min-width: 300px;
+             width: 300px;
+         }
+
+         li.activity ul {
+             margin: 1ex;
+             border-top: 2px solid;
+         }
+
+         li.activity li {
+             padding: 1ex;
+         }
+         @media screen and (max-width: 600px) {
+             nav {
+
+             }
+             nav ul {
+                 display: block;
+             }
+             nav li{
+                 width: 100%;
+             }
+             li.activity {
+                 visibility: hidden;
+                 width: 100%;
+             }
+
+             li.activity > ul {
+                 visibility: visible;
+             }
+         }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>電気通信工学研究会</h1>
+            <nav id="common-nav">
+                <ul>
+                    <li><a href="#about">電通研とは</a></li>
+                    <li><a href="#activity">活動紹介</a></li>
+                    <li class="activity">活動記録
+                        <ul>
+                            <li><a href="http://kuclubdtk.hateblo.jp/">ブログ</a></li>
+                            <li><a href="https://twitter.com/kuclubdtk">Twitter</a></li>
+                        </ul>
+                    </li>
+            </nav>
+        </header>
+        <article>
+            <section>
+                <h2 id="about">電気通信工学研究会とは？</h2>
+                <p>1964年に設立された、電子・機械工作、情報関係を中心として活動する関西大学のサークルです。
+                    略称は電通研です。</p>
+            </section>
+            <section>
+                <h2 id="activity">活動内容・成果物</h2>
+                <p>全ての活動は<a href="https://ja.wikipedia.org/wiki/DIY">Do it yourself</a>を基本としています。</p>
+                <section>
+                    <h3>電子・機械工作</h3>
+                    <p>マイコン（主にArduino）を用いてロボット製作などを行っています。</p>
+                    <ul>
+                        <li>小中学生対象ワークショップ(関西大学学園祭にて開催)</li>
+                        <li>イライラ棒</li>
+                        <li>フラッシュザウルス</li>
+                        <li>PKロボット（ハード部分）</li>
+                        <li>レースゲーム（ハード部分）</li>
+                    </ul>
+                    <hr>
+                    <ul>
+                        <li><a href="http://catchrobo.net/">第8回キャチロボバトルコンテスト </a></li>
+                        <li><a href="http://catchrobo.net/">第7回キャチロボバトルコンテスト 審査員特別賞</a></li>
+                        <li><a href="https://www.renesas.com/ja-jp/about/carrally/general/2017spring/guideline.html">2017年ルネサスマイコンカーラリー競技会＆技術交流会</a></li>
+                        <li><a href="http://www.inrof.org/irc/">第29回 知能ロボットコンテスト 2017</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>情報関係</h3>
+                    <p>ゲーム制作班とプログラミング班に分かれています。</p>
+                    <section>
+                        <h4>ゲーム制作・デザイン班</h4>
+                        <p>ゲーム制作を行っています。Vtuber企画も始動しています</p>
+                          <ul>
+                              <li>VRゲーム</li>
+                              <li>Vtuber企画</li>
+                          </ul>
+                    </section>
+                    <section>
+                        <h4>システム・プログラミング班</h4>
+                        <p>サークル全体のシステム管理や、アプリ開発、競技プログラミング、IoT開発などといった活動をしています。</p>
+                        <ul>
+                            <li>PKロボット（画像認識部分）</li>
+                            <li>レースゲーム（ソフト部分）</li>
+                            <li>NFCタグを用いた部室入退室システム</li>
+
+                        </ul>
+                    </section>
+                    <hr>
+                    <ul>
+                        <li><a href="https://hacku.yahoo.co.jp/hacku2016osaka/">Yahoo! Hack U 2016 大阪会場 優秀賞</a></li>
+                        <li><a href="https://spajam.jp/entry/osaka/">SPAJAM 2017 大阪予選 優秀賞</a></li>
+                        <li><a href="http://2016.seccon.jp/schedule/seccon-2016-1.html">SECCON 2016 大阪大会</a></li>
+                        <li><a href="http://hackday.jp/2016/">Yahoo! Hack Day 2017</a>
+                        <li><a href="https://icpc.iisf.or.jp/2018-yokohama/1st-round-result/">ICPC2018　yokohama-regional　国内予選</a>
+                        <li><a href="https://kc3.me/">関西情報系学生団体交流会(KC3)</a>
+
+                    </ul>
+                </section>
+            </section>
+        </article>
+    </body>
+</html>
